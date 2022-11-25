@@ -11,27 +11,37 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+<!-- Start of Header -->
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Galass Handbags</h1>
-        <img src="./assets/group-bags.png" alt="A trio of yellow, tan and burgundy handbags">
-        <nav>
+        <div class="wrapper">
+            <nav>
+                 <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="header">
+                <div class="header-container1">
+                    <h1>Galass<br>Handbags</h1>
+                </div>
+                <div class="header-container2">
+                    <img src="./assets/group-bags.png" alt="A trio of yellow, tan and burgundy handbags">
+                </div>
+            </section>
+         </div>
+          <!-- <nav>
             <ul>
                 <li>
                     <a href="#">Instagram</a>
@@ -46,41 +56,79 @@
                     <a href="#">Twitter</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
+<!-- End of Header -->
+<!-- Start of Main -->
     <main>
-        <section>
-            <img src="./assets/square-photo.jpg" alt="A lady carrying a green handbag on her forearm">
-            <h2>Hand Crafted</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores optio repellat natus eaque. Libero optio et nesciunt eius, sunt deserunt ullam dolorem sapiente, velit nihil, rerum suscipit ad voluptatum provident soluta. Consequatur dignissimos itaque est provident voluptates sint veniam perspiciatis vero tempora. Numquam eius molestiae quasi debitis atque veniam quae voluptatum. Cum laboriosam laudantium non voluptatum quos sequi facilis molestias facere vel! Repellendus, itaque. Alias possimus sed consequuntur id deleniti? Ullam minus magni omnis quam.</p>
-            <a href="#">Read More</a>
+        <section class="hand-crafted">
+            <div class="wrapper">
+                <div class="crafted-container1">
+                    <img src="./assets/square-photo.jpg" alt="A lady carrying a green handbag on her forearm">
+                </div>
+                <div class="crafted-container2">
+                    <h2>Hand Crafted</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores optio repellat natus eaque. Libero optio et nesciunt eius, sunt deserunt ullam dolorem sapiente, velit nihil, rerum suscipit ad voluptatum provident soluta. Consequatur dignissimos itaque est provident voluptates sint veniam perspiciatis vero tempora. Numquam eius molestiae quasi debitis atque veniam quae voluptatum. Cum laboriosam laudantium non voluptatum quos sequi facilis molestias facere vel! Repellendus, itaque. Alias possimus sed consequuntur id deleniti? Ullam minus magni omnis quam.</p>
+                    <a href="#">read more</a>
+                </div>
+            </div>
+        </section>
+        <section class="collection">
+            <div class="wrapper">
+                <h2>latest collection</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/gallery-photo-1.jpg" alt="Black handbag with chain straps">
+                    </li>
+                    <li>
+                        <img src="./assets/gallery-photo-2.jpg" alt="Green and brown camoflauge handbag">
+                    </li>
+                    <li>
+                        <img src="./assets/gallery-photo-3.jpg" alt="Small white handbag and a pair of white sunglasses">
+                    </li>
+                </ul>
+          </div>
+        </section>
+         <section class="links">
+            <div class="wrapper">
+                <ul>
+                    <li>
+                        <h2>catologue</h2>
+                    </li>
+                    <li>
+                        <h2>events</h2>
+                    </li>
+                    <li>
+                        <h2>collabertions</h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="trends">
+            <div class="wrapper">
+                <div class="trends-container1">
+                    <h2>Fall Trends</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nihil odio vero id dignissimos? Suscipit quo facilis, quisquam est ipsa harum vel libero nostrum consectetur ut accusamus nemo? Dignissimos dolores dicta modi qui id ad non in laborum ratione nihil voluptatum odit veritatis possimus itaque quia, incidunt, asperiores, architecto quod?</p>
+                    <a href="#">Read More</a>
+                </div>
+                    <div class="trends-container2">
+                    <img src="./assets/right-photo.jpg" alt="Woman holding black clutch">
+                </div>
+            </div>
         </section>
         <section>
-            <h2>latest collection</h2>
-            <img src="./assets/gallery-photo-1.jpg" alt="Black handbag with chain straps">
-            <img src="./assets/gallery-photo-2.jpg" alt="Green and brown camoflauge handbag">
-            <img src="./assets/gallery-photo-3.jpg" alt="Small white handbag and a pair of white sunglasses">
-        </section>
-        <section>
-            <img src="./assets/images.svg" alt="Catalogue Icon">
-            <h2>catologue</h2>
-            <img src="./assets/calendar-week.svg" alt="Events Icon">
-            <h2>events</h2>
-            <img src="./assets/handbag.svg" alt="Collaberations Icon">
-        </section>
-        <section>
-            <h2>Fall Trends</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum nihil odio vero id dignissimos? Suscipit quo facilis, quisquam est ipsa harum vel libero nostrum consectetur ut accusamus nemo? Dignissimos dolores dicta modi qui id ad non in laborum ratione nihil voluptatum odit veritatis possimus itaque quia, incidunt, asperiores, architecto quod?</p>
-            <a href="#">Read More</a>
-        </section>
-        <section>
-            <h2>Vegan Leather</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati voluptatem illum nam et at dolore magnam, sint dolorum aut quo ex assumenda vitae a quidem commodi architecto sunt dolorem ducimus saepe officiis blanditiis laborum. Minus, unde! Aliquam alias velit fugit quos consectetur atque amet doloribus? Quod odio dolorem facere!</p>
-            <a href="#">Read More</a>
+            <div class="wrapper">
+                <h2>Vegan Leather</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati voluptatem illum nam et at dolore magnam, sint dolorum aut quo ex assumenda vitae a quidem commodi architecto sunt dolorem ducimus saepe officiis blanditiis laborum. Minus, unde! Aliquam alias velit fugit quos consectetur atque amet doloribus? Quod odio dolorem facere!</p>
+                <a href="#">Read More</a>
+                <img src="./assets/left-photo.jpg" alt="Tan handbags with a fuzzy pompom">
+            </div>
         </section>
     </main>
-
+<!-- End of Main -->
+<!-- Start of Footer -->
     <footer>
+        <div class="wrapper">
         <nav>
             <ul>
                 <li>
@@ -111,9 +159,9 @@
         </p>
         <p>Copyright 2019 HackerYou</p>
     
-    
+    </div>
     </footer>
-
+<!-- End of Footer -->
 
 </body>
 </html>

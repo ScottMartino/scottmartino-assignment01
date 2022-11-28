@@ -68,7 +68,8 @@ h1 {
 /* Hand Crafted section */
 .hand-crafted {
     background-color: #500801;
-    height: 400px;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .hand-crafted .wrapper {
@@ -120,6 +121,7 @@ h1 {
 .collection {
     background-color: #815600;
     padding-bottom: 70px;
+    padding-top: 10px;
 }
 
 .collection h2 {
@@ -183,7 +185,7 @@ h1 {
     border: 1px solid #1D0303;
     color: white;
     background-color: #1D0303;
-    padding: 5px;
+    padding: 10px;
     line-height: 29px;
 }
 
@@ -234,7 +236,7 @@ h1 {
     border: 1px solid #1D0303;
     color: white;
     background-color: #1D0303;
-    padding: 5px;
+    padding: 10px;
     line-height: 29px;
 }
 
@@ -250,7 +252,7 @@ h1 {
 /* Styling Stay updated section */
 .stayupdated {
     background-color: #500801;
-    height: 300px;
+    padding-bottom: 75px;
 }
 
 .stayupdated .wrapper {
@@ -320,7 +322,10 @@ button {
     border: none;
     font-family: "Petit Formal Script", sans serif;
     color: white;
-    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 footer {
@@ -330,4 +335,14 @@ footer {
     font-family: "Roboto", sans serif;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* Media Query */
+@media (max-width: 400px) {
+    header .wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }

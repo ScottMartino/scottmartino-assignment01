@@ -339,8 +339,12 @@ footer {
 
 /* Media Query */
 @media (max-width: 400px) {
-    .header .wrapper {
-       width: 100%;
+    .header {
+        display: inline;
+    }
+
+    .header-container1 h1 {
+        font-size: 48px;
     }
 
     .hand-crafted .wrapper {

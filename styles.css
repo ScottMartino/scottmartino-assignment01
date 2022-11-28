@@ -45,7 +45,6 @@ header nav a {
 
 .header {
     display: flex;
-    align-items: center;
 }
 
 .header-container1,
@@ -62,6 +61,7 @@ h1 {
     font-size: 90px;
     color: white;
     padding-right: 40px;
+    text-align: right;
 }
 
 /* Styling main */
@@ -291,7 +291,7 @@ h1 {
 }
 
 .form {
-    width: 700px;
+    width: 500px;
     display: block;
 } 
 
@@ -339,10 +339,72 @@ footer {
 
 /* Media Query */
 @media (max-width: 400px) {
-    header .wrapper {
-        max-width: 100%;
-        flex-direction: column;
-        justify-content: center;
+    .header .wrapper {
+       width: 100%;
     }
 
+    .hand-crafted .wrapper {
+        flex-direction: column;
+    }
+
+    .collection .wrapper ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links .wrapper ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trends .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .vegan .wrapper {
+        flex-direction: column;
+    }
+
+    .stayupdated .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .bottom-nav ul {
+        display: flex;
+    }
+
+    .bottom-nav li {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .form h2 {
+        font-size: 45px;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form input {
+        width: 200px;
+        display: flex;
+        margin-left: 100px;
+    }
+    
+    .form button{
+        margin-left: 140px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact p {
+        text-align: center;
+    }
 }

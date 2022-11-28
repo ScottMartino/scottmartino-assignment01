@@ -57,7 +57,7 @@ header nav a {
     align-self: center;
 }
 
-h1{
+h1 {
     font-family: "Petit Formal Script", sans serif;
     font-size: 90px;
     color: white;
@@ -71,11 +71,11 @@ h1{
     height: 400px;
 }
 
-.hand-crafted .wrapper{
+.hand-crafted .wrapper {
     display: flex;
 }
 
-.crafted-container1 img{
+.crafted-container1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -100,7 +100,9 @@ h1{
 .hand-crafted p {
     font-family: "Roboto", sans serif;
     color: white;
-    font-weight: light;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.2px;
 }
 
 .hand-crafted a {
@@ -111,8 +113,8 @@ h1{
     color: white;
     background-color: #1D0303;
     padding: 5px;
+    line-height: 29px;
 }
-
 
 /* Latest Collection */
 .collection {
@@ -150,7 +152,6 @@ h1{
     padding-bottom: 30px;
 }
 
-
 /* Styling Trends */
 .trends .wrapper{
     display: flex;
@@ -158,38 +159,175 @@ h1{
     justify-content: center;
 }
 
-.trends{
+.trends {
     background-color: #815600;
 }
  
-.trends h2{
+.trends h2 {
     color: white;
     font-family: "Petit Formal Script", sans serif;
 }
 
-.trends img{
+.trends p {
+    font-family: "Roboto", sans serif;
+    color: white;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+
+.trends a {
+    font-family: "Petit Formal Script", sans serif;
+     font-size: 25px;
+    text-decoration: none;
+    border: 1px solid #1D0303;
+    color: white;
+    background-color: #1D0303;
+    padding: 5px;
+    line-height: 29px;
+}
+
+.trends img {
     max-width: 100%;
- }
+}
 
 .trends-container1,
 .trends-container2 {
     flex-basis: 50%;
 }
 
- /* Styling Vegan Leather */
-.vegan .wrapper{
-    display: flex;
+.trends-container1 {
+    padding:75px;
 }
 
-.vegan{
+ /* Styling Vegan Leather */
+.vegan .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.vegan {
     background-color: #815600;
 }
 
-.vegan img{
+.vegan img {
     max-width: 100%;
+}
+
+.vegan h2 {
+    color: white;
+    font-family: "Petit Formal Script", sans serif;
+}
+
+.vegan p {
+    font-family: "Roboto", sans serif;
+    color: white;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+
+.vegan a {
+    font-family: "Petit Formal Script", sans serif;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid #1D0303;
+    color: white;
+    background-color: #1D0303;
+    padding: 5px;
+    line-height: 29px;
 }
 
 .vegan-container1,
 .vegan-container2{
     flex-basis: 50%;
+}
+
+.vegan-container2 {
+    padding: 75px;
+}
+
+/* Styling Stay updated section */
+.stayupdated {
+    background-color: #500801;
+    height: 300px;
+}
+
+.stayupdated .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stayupdated a {
+    text-decoration: none;
+    font-family: "Roboto", sans serif;
+    font-weight: 400;
+    color:white;
+}
+
+.stayupdated nav {
+    padding-top: 80px;
+}
+
+.stayupdated h2 {
+    font-family: "Petit Formal Script", sans serif;
+    color: white;
+    padding-top: 30px;
+    font-size: 54px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.stayupdated label {
+    font-family: "Roboto", sans serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.form {
+    width: 700px;
+    display: block;
+} 
+
+.contact h3 {
+    font-family: "Petit Formal Script", sans serif;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.contact p {
+    font-family: "Roboto", sans serif;
+    color: white;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+
+input {
+    width: 75%;
+}
+
+button {
+    background-color: #1D0303;
+    border: none;
+    font-family: "Petit Formal Script", sans serif;
+    color: white;
+    padding: 4px;
+}
+
+footer {
+    background-color:#1D0303;
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
